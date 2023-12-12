@@ -1,0 +1,159 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3E7D8;
+    margin: 0;
+    padding: 0;
+    font-family:'Rethink Sans', 'Arial', sans-serif;
+}
+
+header {
+    background-color: #F3E7D8;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-heading {
+    color: #d999e0;
+    font-family: 'Rethink Sans', sans-serif;
+    cursor: pointer; /* Added cursor property to make it clear that it's clickable */
+    padding-left: 10px
+}
+
+nav {
+    /* Set flex properties to align navigation to the right */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Align vertically centered */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 5px; /* Add margin to the right of each navigation item for spacing */
+}
+
+.text-subheading {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bolder; /* Use font-weight for bold text */
+    text-align: left;
+    text-decoration: none; /* Remove underline by default */
+    padding-right: 30px;
+}
+
+.text-subheading:hover {
+    text-decoration: underline;
+}
+
+.home-section {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.home-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide any overflowed text */
+    text-overflow: ellipsis; /* Display an ellipsis (...) when text overflows */
+}
+
+.home-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.home-description {
+    text-align: center;
+    max-width: 600px; /* Set a maximum width for better readability */
+    margin: 20px auto; /* Center the text and provide top and bottom margin */
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 50 px;
+    bottom: 0;
+    left: 0px;
+    width: calc(100% - 30px); 
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
+.email, .phone, .contact {
+    text-decoration: none;
+    color: white;
+}
+
+.tour-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tour-header {
+    text-align: left;
+}
+
+.tour-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tour-description {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left; /* Updated to align to the left */
+}
+
+.southamerica-section{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.southamerica-header{
+    text-align: left;
+}
+
+.tableau-section .tableauPlaceholder {
+    max-width: 100%;
+    margin: 0 auto; /* Center the visualization */
+  }
+
+.normaltext{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bolder
+}
